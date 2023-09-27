@@ -1,0 +1,6 @@
+#!/bin/bash
+
+my_directory=$(pwd)
+
+# Print absolute path
+echo "$my_directory"
