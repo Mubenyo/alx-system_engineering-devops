@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p -a | sed 's/[^\/]*\//&,/g' | tr '\n' ' ' | sed 's/,$/\n/
+ls -p -a | sed 's/[^\/]*\//&,/g' | tr '\n' ' ' | sed 's/,$/\n/'
